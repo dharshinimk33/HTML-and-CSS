@@ -1,7 +1,6 @@
 <style>  
         .subscribe-button{
             background-color:rgb(180, 6, 6);
-            color:white;
             border: none;
             padding-right: 16px;
             padding-left:16px;
@@ -12,14 +11,19 @@
             font-weight: bold; 
             margin-right: 8px;
             transition:opacity 0.15s,background-color 0.15s,color 1s;
-            vertical-align: top;    }
+            vertical-align: top;   
+         }
+
+
         .subscribe-button:hover{    
             opacity:0.8;
             color: white;
         }
+
         .subscribe-button:active{
              background-color:green;
         }
+        
         .join-button
         {
             background-color: white;
@@ -71,10 +75,6 @@
         .tweet-button:active{
             opacity:0.8;
             background-color:blue;
-            transition:opacity 0.8s, 0.1s;
-            
-           
-            
-            
+            transition:opacity 0.8s, 0.1s;  
         }
 </style>
