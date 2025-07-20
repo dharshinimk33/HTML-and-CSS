@@ -1,0 +1,65 @@
+
+    .taho{
+        font-family:tahoma;
+        font-weight: bold;
+    }
+    .Ar
+    {
+        font-family:Arial;
+        font-weight: Bold;
+        line-height:30px;    }
+    .bgst{
+        font-size:20px;
+    }
+    .sales
+    {
+        font-style:italic;
+        font-weight: normal;
+        color: red;
+        font-size: 14px;
+    }
+    .shop{
+        font-size: 20px;
+    }
+    .line2{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: normal;
+
+    }
+    .line3{
+        color: rgb(0, 128, 255);
+        font-size: 14px;
+    }
+    .line3:hover{
+        cursor:pointer;
+        text-decoration: underline;
+       
+    }
+    .verd{
+        font-family: verdana;
+    }
+    .line1{
+        
+        font-weight: bold;
+        line-height: 20px;
+    }
+    .light{
+        color: grey;
+        font-size: 13px;
+        font-weight: normal;   }
+    .nrml{
+        
+        font-size:16px;
+        width: 300px;
+
+    }
+    .get-button{
+        all: unset;
+        font-family: verdana;
+        background-color: green;
+        font-size:13px;    
+        color: white;
+        padding:8px 6px;
+        border-radius: 4px;
+    }
