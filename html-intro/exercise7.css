@@ -1,6 +1,7 @@
 .tsunade{
-    width:100px;
+    width:135px;
     border-radius: 15px;
+    margin-right: 20px;
 }
 .tsunade1
 {
@@ -8,6 +9,7 @@
     height: 200px;
     object-fit:cover;
     object-position: center;
+    margin-right: 20px;
 }
 .tsunade2{
     width:200px;
@@ -19,6 +21,8 @@
 .box7{
     border-radius: 4px;
     margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom:30px;
 }
 .box8{
     border: none;
@@ -52,31 +56,35 @@ p{
     border: none;
     border-radius: 18px;
     padding: 8px 90px;
+    cursor: pointer;
+}
+.tsunade4,.tweet-text,.tweet-button{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
 }
 .tsunade4{
 
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    margin-top: 10px;
     object-fit: cover;
     object-position: top;
-    margin-right: 10px;
-    margin-left: 20px;
-    vertical-align:middle;
-    
+    margin-right:5px;
+    margin-left: 10px;   
 }
 .tweet-button{
     background-color: rgb(22, 115, 237);
     color: white;
     border: none;
     padding: 5px;
-    margin-left: 20px;
-    vertical-align:bottom;
+    margin-left: 35px;
+    border-radius: 16px;
+    padding: 7px 15px;
+    cursor: pointer;   
 }
 .tweet-text{
-    display: inline-block;
     color: gray;
-    margin-top:20px;
-    vertical-align:middle;
+    font-size: 15px;
+    margin-right: 10px;
 }
