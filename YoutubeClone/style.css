@@ -1,13 +1,20 @@
 .thumbnail{
     width: 300px;
+    
 }
 .search-box{
     display:block;
-    margin-bottom: 20px;
 }
 .video-title{
     width: 290px;
 }
 .video-author{
+
+}
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right:15px
 
 }
