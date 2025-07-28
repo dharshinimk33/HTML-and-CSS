@@ -1,0 +1,46 @@
+.a{
+    display: inline-block;
+}
+.pic1{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    object-position: top;
+}
+.a{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    height: 210px;
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+p{
+    font-family: Roboto,Arial;
+}
+.name{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.profile{
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    width: 20px;
+}
+.profile-pic{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.line2{
+    display: inline-block;
+    height: 20px;
+    width:100px;   
+}
+.mutual{
+    font-size: 10px;
+    margin-left: 30px;
+}

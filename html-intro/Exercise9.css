@@ -1,0 +1,153 @@
+.a{
+    width: 100px;
+    height: 100px;
+    border-color: red;
+    background-color: red;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.b{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 12px;
+    border-color: green;
+    background-color: green;
+    border-radius: 50px;
+    display: inline-block;
+}
+p{
+    display: inline-block;    
+}
+.serv{
+    margin-right: 10px;
+}
+.c{
+    border: solid;
+    border-color: black;
+    border-width:0.1px ;
+    width: 350px;
+    height:80px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.d{
+    width:350px;
+    height: 130px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: arial;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;  
+    padding-bottom: 0;
+}
+.context{
+    margin-top: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.e{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    margin-top: 20px;
+    width: 330px;
+    height: 50px;
+}
+.tsunade4,.tweet-text,.tweet-button{
+    display: inline-block;
+    font-family: arial;
+    vertical-align: middle;
+}
+.tsunade4{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+    margin-right:5px;
+    margin-left: 10px; 
+    margin-top: 5px;
+      
+}
+.tweet-button{
+    background-color: rgb(22, 115, 237);
+    color: white;
+    border: none;
+    margin-left: 35px;
+    border-radius: 16px;
+    padding: 7px 15px;
+    cursor: pointer; 
+    margin-top: 4px;
+    
+}
+.tweet-text{
+    color: gray;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom:7px;
+  
+}
+.f{
+    margin-top: 20px;  
+    width:120px;
+    height:240px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+    font-family: Roboto;
+    display: inline-block;
+    margin-right: 8px;
+}
+.pic{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.name{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.mutual{
+    font-size: 10px;
+    padding-right:9px;
+    color:gray;
+}
+.add{
+    margin-left: 17px;
+    background-color: rgb(22, 115, 237);
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding: 6px 10px;
+    
+    border-radius: 3px;
+}
+.g{
+    text-align:center;
+}
+.h{
+    text-align:center;
+}
+.k{
+    text-align:center;
+    display: inline-block;
+}
+.i,j{
+     
+}
+.google{
+    
+    width: 70px;
+    height:60px;
+    object-fit: contain;
+}
+.google-search{
+    border: none;
+    width: 400px;
+    height:35px;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.3);
+    border-radius: 30px;
+    padding-left: 12px;
+}
