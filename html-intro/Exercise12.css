@@ -1,4 +1,4 @@
-.a,.b,.c,.d,.e{
+.a,.b,.c,.d,.e,.f{
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
@@ -41,6 +41,7 @@
 .e{
     width: 200px;
     justify-content: space-between;
+    margin-top:20px;
 }
 .e2,.e3{
     background-color:blue;
@@ -48,4 +49,34 @@
     padding-left: 7px;
     padding-right: 7px;
     color: white;
+}
+.f{
+    background-color:rgb(172, 98, 234);
+    justify-content: space-between;
+    color: whitesmoke;
+    height: 30px;
+    align-items: center;
+}
+.f1{
+    font-weight: bold;
+    margin-left: 8px;
+    width: 160px;
+}
+.f2
+{
+    flex: 1;
+    max-width: 500px;
+    background-color: blue;
+}
+.search-box{
+    border-radius: 7px;
+    border: none;
+    
+}
+.f3{
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    margin-right: 10px;
 }
