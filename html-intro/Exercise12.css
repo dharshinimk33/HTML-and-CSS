@@ -1,7 +1,7 @@
 .a,.b,.c,.d,.e,.f{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .a1{
     background-color: lightpink;
@@ -66,12 +66,12 @@
 {
     flex: 1;
     max-width: 500px;
-    background-color: blue;
+    margin-right: 40px;
 }
 .search-box{
     border-radius: 7px;
     border: none;
-    
+    width: 100%;
 }
 .f3{
     width: 100px;
@@ -79,4 +79,60 @@
     border-width: 1px;
     padding-left: 40px;
     margin-right: 10px;
+}
+.g{
+    border: solid;
+    border-color:gray;
+    border-width: 1px;
+    width: 300px;
+}
+.main{
+   
+    height: 60px;
+    margin-bottom:0;
+    display: flex;
+    flex-direction: row;
+}  
+.g1{
+    width: 60px;
+    padding-left: 5px;
+    padding-top:9px;
+}
+.pic{
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.g2{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 9px;
+}
+.name{
+    font-weight: bold;
+    font-size: 13px;
+}
+.name1{
+    font-size: 13px;
+    color: rgb(67, 67, 67);
+}
+.name2{
+    font-size: 11px;
+    color: rgb(67, 67, 67);
+}
+.g3{
+    width: 90px;
+    padding-left: 40px;
+}
+.follow{
+    margin-top:17px;
+    background-color: rgb(4, 75, 208);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
 }

@@ -1,13 +1,6 @@
 .thumbnail{
     width: 100%; 
 }
-p{
-    font-family: Roboto,Arial;
-    margin: 0;
-}
-.search-box{
-    display:block;
-}
 .video-title{
     font-size: 14px;
     font-weight: 500;

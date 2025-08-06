@@ -4,16 +4,38 @@
         <title>
             Youtube clone
         </title>
+        <link rel="stylesheet" href="./styles.css/general.css">
+        <link rel="stylesheet" href="./styles.css/header.css">
+        <link rel="stylesheet" href="./styles.css/video.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
 <body>
-        <input class="search-box" type="text" placeholder="Search">  
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger" src="./icons/hamburger-menu.svg">
+            <img class="youtube-icon" src="./icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-box" type="text" placeholder="Search">
+            <button class="search">
+                <img class="search-icon" src="./icons/search.svg"> 
+            </button> 
+            <button class="voice">
+                <img class="voice-icon" src="./icons/voice-search-icon.svg">
+            </button>
+        </div>
+        <div class="right-section">
+                <img class="upload" src="./icons/upload.svg">
+                <img class="apps" src="./icons/youtube-apps.svg">
+                <img class="notification" src="./icons/notifications.svg">
+                <img class="user" src="./channel-pictures/itachi.jpeg">
+        </div>
+    </div>
     <div class="video-grid">      
         <div class="video-preview">
             <div class="thumbnail-row">
@@ -196,5 +218,6 @@
             </div>    
         </div>    
     </div> 
+
 </body>
 </html>
